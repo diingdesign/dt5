@@ -26,7 +26,7 @@ function Page() {
     <section>
       <article className="container">
         <header className="row instruction">
-          <h2>Where to place your AR expereince?</h2>
+          <h2>Choose where to start your AR expereince?</h2>
           <p>e.g., in front of DiingT Vol. 5 or on the card</p>
         </header>
         <ul className="buttons row d-flex flex-row">
