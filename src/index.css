@@ -42,7 +42,6 @@ h1 {
 
 .header .decor-bg {
   background: #f5b124;
-  z-index: -1;
   height: 100%;
   width: 56px;
 }
@@ -75,8 +74,8 @@ h1 {
   transition: transform 0.4s ease-out;
 }
 
-.diing-link:hover #logo {
-  transform: translate(0px, -2px);
+.diing-link:active #logo {
+  transform: translate(5px, 0);
 }
 
 .diing-link img {
@@ -127,5 +126,9 @@ a.button-ar:active {
   a.button-ar:hover {
     border-color: #8b60d1;
     box-shadow: 0 4px 12px rgba(139, 96, 209, 0.3);
+  }
+
+  .diing-link:hover #logo {
+    transform: translate(5px, 0);
   }
 }

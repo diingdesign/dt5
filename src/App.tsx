@@ -13,7 +13,7 @@ function Header() {
           <h1>DiingT Vol.5 in AR</h1>
         </div>
         <a className="diing-link link" rel="noreferrer" target="_blank" href="https://shop.diing.com">
-          <div className="decor-bg d-flex flex-column justify-content-center">
+          <div className="decor-bg d-flex flex-column justify-content-center align-items-center">
             <img id="logo" src={logo} alt="Diing" />
           </div>
           <div className="decor">
