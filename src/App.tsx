@@ -1,7 +1,8 @@
 import React from 'react';
 import tshirt from './assets/images/tshirt.png';
 import card from './assets/images/card.png';
-import logo from './assets/images/diing-logo.png';
+import logo from './assets/images/diing_logo_white.png';
+import decor from './assets/images/image_flipper_2x.png';
 import './App.css';
 
 function Header() {
@@ -11,11 +12,14 @@ function Header() {
         <div className="title">
           <h1>DiingT Vol.5 in AR</h1>
         </div>
-        <div className="link">
-          <a className="diing-link" rel="noreferrer" target="_blank" href="https://shop.diing.com">
-            <img src={logo} alt="Diing" />
-          </a>
-        </div>
+        <a className="diing-link link" rel="noreferrer" target="_blank" href="https://shop.diing.com">
+          <div className="decor-bg d-flex flex-column justify-content-center">
+            <img id="logo" src={logo} alt="Diing" />
+          </div>
+          <div className="decor">
+            <img src={decor} alt="Page flip to Diing.com" />
+          </div>
+        </a>
       </nav>
     </header>
   );
