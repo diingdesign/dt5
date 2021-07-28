@@ -26,20 +26,57 @@ h1 {
   margin-bottom: 0;
 }
 
+.header .decor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 56px;
+}
+
+.header .decor img {
+  max-height: calc(100% + 17px);
+  width: auto;
+  margin-left: -79px;
+}
+
+.header .decor-bg {
+  background: #f5b124;
+  z-index: -1;
+  height: 100%;
+  width: 56px;
+}
+
 .header {
   top: 0;
   margin-bottom: 2rem;
   border-bottom: 0.5px solid rgba(133, 71, 231, 0.28);
   position: sticky;
   background: #0f080f;
+  height: 62px;
+}
+
+.header nav {
+  height: 100%;
 }
 
 .header .title {
-  padding: 1.2rem 0.75rem;
+  /*padding: 1.2rem 0.75rem;*/
+  padding: 0 0.75rem;
 }
 
 .diing-link {
-  padding-right: 0.25rem;
+  /*padding-right: 0.25rem;*/
+  height: 100%;
+  display: block;
+}
+
+.diing-link #logo {
+  transition: transform 0.4s ease-out;
+}
+
+.diing-link:hover #logo {
+  transform: translate(0px, -2px);
 }
 
 .diing-link img {
