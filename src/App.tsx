@@ -12,7 +12,7 @@ function Header() {
           <h1>DiingT Vol.5 in AR</h1>
         </div>
         <div className="link">
-          <a className="diing-link" target="_blank" href="https://shop.diing.com">
+          <a className="diing-link" rel="noreferrer" target="_blank" href="https://shop.diing.com">
             <img src={logo} alt="Diing" />
           </a>
         </div>
