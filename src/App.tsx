@@ -1,13 +1,21 @@
 import React from 'react';
 import tshirt from './assets/images/tshirt.png';
 import card from './assets/images/card.png';
+import logo from './assets/images/diing-logo.png';
 import './App.css';
 
 function Header() {
   return (
     <header className="header">
-      <nav>
-        <h1>DiingT Vol.5 in AR</h1>
+      <nav className="d-flex flex-row justify-content-between align-items-center">
+        <div className="title">
+          <h1>DiingT Vol.5 in AR</h1>
+        </div>
+        <div className="link">
+          <a className="diing-link" target="_blank" href="https://shop.diing.com">
+            <img src={logo} alt="Diing" />
+          </a>
+        </div>
       </nav>
     </header>
   );

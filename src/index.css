@@ -30,9 +30,20 @@ h1 {
   top: 0;
   margin-bottom: 2rem;
   border-bottom: 0.5px solid rgba(133, 71, 231, 0.28);
-  padding: 1.2rem 0.75rem;
   position: sticky;
   background: #0f080f;
+}
+
+.header .title {
+  padding: 1.2rem 0.75rem;
+}
+
+.diing-link {
+  padding-right: 0.25rem;
+}
+
+.diing-link img {
+  width: 48px;
 }
 
 .instruction p {
