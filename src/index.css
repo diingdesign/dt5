@@ -63,12 +63,12 @@ a.button-ar {
   border: 1px solid #222222;
   display: block;
   border-radius: 4px;
-  transition: all 0.6s linear;
+  transition: all 0.4s linear;
   background: rgba(255, 255, 255, 0.05) center center no-repeat;
   background-size: 100% auto;
 }
 
-a.button-ar:hover {
+a.button-ar:active {
   border-color: #8b60d1;
   box-shadow: 0 4px 12px rgba(139, 96, 209, 0.3);
 }
@@ -84,4 +84,11 @@ a.button-ar:hover {
 
 #button-ar-card {
   background-image: url("./assets/images/card.png");
+}
+
+@media(hover: hover) {
+  a.button-ar:hover {
+    border-color: #8b60d1;
+    box-shadow: 0 4px 12px rgba(139, 96, 209, 0.3);
+  }
 }

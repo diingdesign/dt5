@@ -26,8 +26,8 @@ function Page() {
     <section>
       <article className="container">
         <header className="row instruction">
-          <h2>Select a Scan Media</h2>
-          <p>Choose what kind of media you are going to scan, someone wearing DiingT Vol. 5 or the card.</p>
+          <h2>Where to place your AR expereince?</h2>
+          <p>e.g., in front of DiingT Vol. 5 or on the card</p>
         </header>
         <ul className="buttons row d-flex flex-row">
           <li>
